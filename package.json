@@ -1,0 +1,40 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Andres Briceño's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-bootstrap": "node-sass --include-path scss bootstrap/scss/bootstrap.scss css/bootstrap.css",
+    "watch-bootstrap": "nodemon -e scss -x \"npm run build-bootstrap\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresbrice/portfolio.git"
+  },
+  "keywords": [
+    "andres",
+    "briceno",
+    "porfolio",
+    "buenos",
+    "aires",
+    "argentina",
+    "html",
+    "css",
+    "bootstrap",
+    "sass",
+    "scss"
+  ],
+  "author": "Andres Briceño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresbrice/portfolio/issues"
+  },
+  "homepage": "https://github.com/andresbrice/portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
