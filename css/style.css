@@ -1,1 +1,41 @@
-/* PRUEBA */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif !important;
+  color: #000; }
+
+.card {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.473);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.473);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.473);
+  border-radius: 2em; }
+  @media screen and (min-width: 1000px) {
+    .card {
+      width: 100%; } }
+
+.navbar {
+  border-radius: 0;
+  border: none;
+  background-color: #000000b2 !important; }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh !important;
+  background: url(../../assets/background/fondoazul1.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed; }
+  .hero .title {
+    font-size: 5rem;
+    font-weight: 700; }
+  .hero .subtitle {
+    font-size: 1.5rem;
+    font-weight: 400; }
+
+.footer {
+  background-color: #d1d1d1; }

@@ -1,0 +1,11 @@
+.card {
+    box-shadow: $base-box-shadow;
+    -webkit-box-shadow: $base-box-shadow;
+    -moz-box-shadow: $base-box-shadow;
+    border-radius: $base-border-radius;
+
+    @media screen and (min-width: 1000px) {
+        width: $full;
+    }
+
+}

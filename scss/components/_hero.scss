@@ -1,0 +1,15 @@
+.hero {
+    @include flexCenter($flex-direction: column);
+    min-height: 100vh !important;
+    @include background($background: url(../../assets/background/fondoazul1.svg));
+
+    .title {
+        font-size: $base-font-size * 5;
+        font-weight: map-get($map: $font-weights, $key: bold);
+    }
+
+    .subtitle {
+        font-size: $base-font-size * 1.5;
+        font-weight: map-get($map: $font-weights, $key: regular);
+    }
+}
